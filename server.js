@@ -6,7 +6,7 @@ const PORT = 3000;
 
 
 app.get('/', (request, response) => {
-response.send("Hello! My Node.js server is running!");
+response.send("Hello! My Node.js server is running well!");
 });
 
 app.get('/api/users', (request, response) => {
